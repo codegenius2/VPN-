@@ -5,7 +5,7 @@ from PyQt5.QtCore import Qt
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-
+ 
         self.setWindowTitle("Slider Example")
         self.setGeometry(100, 100, 400, 200)
 
